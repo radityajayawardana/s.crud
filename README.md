@@ -1,2 +1,4 @@
 # s.crud
-Sarjana CRUD:v
+s.curd merupakan singkatan dari Sarjana CRUD, ini sebenarnya hanya jokes di Facebook.
+
+Kode program di repo ini merupakan CRUD sederhana menggunakan PHP dengan MySQL.
