@@ -7,7 +7,7 @@ if (isset($_POST['btn'])) {
   $bn = $_POST['bandi'];
   $s = $_POST['sqi'];
   $hg = $_POST['hargai'];
-  
+
   $sql = "INSERT INTO host (id,np, disk, band, sq, harga, link) VALUES (NULL,
   '$npp', '$dsk', '$bn', '$s', '$hg', '')";
   $query = mysqli_query($db, $sql);
@@ -16,8 +16,6 @@ if (isset($_POST['btn'])) {
     header('Location: index.php?status=sukses');
   } else {
     header('Location: index.php?status=gagal');
-    
   }
-
 };
-?>
+

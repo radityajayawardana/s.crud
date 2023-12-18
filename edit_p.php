@@ -5,8 +5,8 @@ if (isset($_POST['btn'])) {
   $id = $_POST['id'];
   $enp = $_POST['npp'];
   $disk = $_POST['diskk'];
-  $band = $_POST ['bandd'];
-  $sqld = $_POST ['sqll'];
+  $band = $_POST['bandd'];
+  $sqld = $_POST['sqll'];
   $harga = $_POST['hargaa'];
 
   $sql = "UPDATE host SET np='$enp', disk='$disk', band='$band', sq='$sqld',
@@ -18,4 +18,4 @@ if ($query) {
 } else {
   die("Gagal menyimpan perubahan...");
 };
-?>
+
